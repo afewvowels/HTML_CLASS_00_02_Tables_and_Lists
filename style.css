@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+html {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #4f092b;
+  color: #f4f2f3;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 3.0em;
+  padding: 0;
+  padding-top: 10px;
+  margin: 0 auto;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.5em;
+  padding: 0;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+hr {
+  width: 80%;
+  border: 2px solid;
+}
+
+ol {
+  text-align: left;
+  list-style-type: upper-alpha;
+}
+
+#colgroup_1 {
+  background-color: #1a407c;
+}
+
+#colgroup_2 {
+  background-color: #1a7c23;
+}
+
+#main_content {
+  height: 100vh;
+  width: 550px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #96094d;
+}
+
+#my_table {
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 2px solid;
+  border-radius: 5px;
+  width: 80%;
+}
+
+#my_table caption {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+#my_table td {
+  border: 1px solid;
+}
+
+#my_table th {
+  text-decoration: underline;
+  border: 1px solid;
+}
+
+#my_table_total {
+  text-align: right;
+  padding-right: 5px;
+}
+
+#ol_div {
+  margin: 0 auto;
+  width: 350px;
+}

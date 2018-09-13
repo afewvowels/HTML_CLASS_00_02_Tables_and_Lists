@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>13 September 2018 - Tables and Lists</title>
+  <meta charset='utf-8' />
+  <link rel='stylesheet' href='./style.css' />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+</head>
+
+<body>
+  <div id='main_content'>
+    <h1>13 September 2018</h1>
+    <h2>Tables and Lists</h2>
+    <hr>
+    <section id='tables'>
+      <table name='my_table' id='my_table'>
+        <caption>This is a simple table</caption>
+        <colgroup id='colgroup_1'>
+          <col></col>
+        </colgroup>
+        <colgroup id='colgroup_2'>
+          <col></col>
+          <col></col>
+          <col></col>
+          <col></col>
+        </colgroup>
+        <!-- Alternate -->
+        <!-- <colgroup span="1" id='colgroup_1'></colgroup>
+        <colgroup span="4" id='colgroup_2'></colgroup> -->
+        <thead>
+          <tr>
+            <th></th>
+            <th>Column #1</th>
+            <th>Column #2</th>
+            <th>Column #3</th>
+            <th>Column #4</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th rowspan="2">Row #1 &<br>Row #2</th>
+            <td rowspan="2">Cell #1 &<br>Cell #5</td>
+            <td>Cell #2</td>
+            <td>Cell #3</td>
+            <td>Cell #4</td>
+          </tr>
+          <tr>
+            <!-- <th>Row #2</th> -->
+            <!-- <td>Cell #5</td> -->
+            <td>Cell #6</td>
+            <td>Cell #7</td>
+            <td>Cell #8</td>
+          </tr>
+          <tr>
+            <th>Row #3</th>
+            <td>Cell #9</td>
+            <td>Cell #10</td>
+            <td>Cell #11</td>
+            <td>Cell #12</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <th colspan="4" id='my_table_total'>Total:</th>
+            <th colspan="1">1234</th>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section id='lists'>
+      <h3>Ordered List</h3>
+      <div id='ol_div'>
+        <ol start='13'>
+          <li>Item #1</li>
+          <li>Item #2</li>
+            <ol>
+              <li>Subitem #1</li>
+              <li>Subitem #2</li>
+            </ol>
+          <li>Item #3</li>
+            <ul>
+              <li>Subitem #1</li>
+              <li>Subitem #2</li>
+            </ul>
+          <li>Item #4</li>
+        </ol>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
