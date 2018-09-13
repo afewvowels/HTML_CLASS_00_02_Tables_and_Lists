@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 html {
+  padding: 0;
+  margin: 0 auto;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #4f092b;
@@ -14,8 +16,23 @@ body {
   width: 100vw;
 }
 
+footer, header {
+  width: 550px;
+  margin: 0 auto;
+  padding: 0;
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
+  background-color: #96094d;
+}
+
 img {
   width: 400px;
+  padding-bottom: 10px;
+}
+
+caption {
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 dl {
@@ -54,6 +71,12 @@ h5 {
 hr {
   width: 80%;
   border: 2px solid;
+  padding: 0;
+  margin: 0 auto;
+}
+
+img {
+  padding-top: 15px;
 }
 
 ol {
@@ -84,7 +107,7 @@ ol {
 
 #my_table {
   margin: 0 auto;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   border: 2px solid;
   border-radius: 5px;
   width: 80%;
